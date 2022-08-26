@@ -1,0 +1,94 @@
+.menu.active {
+  position: fixed;
+
+  right: 0;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  flex-direction: row;
+  z-index: 3;
+  justify-content: space-around;
+}
+
+.menu.active img {
+  width: 48px;
+}
+
+.menu.inactive {
+  transform: translate(320px);
+}
+
+.single-app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.single-app:hover {
+  cursor: pointer;
+  background: #000000;
+  background-size: 100px;
+
+ 
+}
+
+.apps-div {
+  display: flex;
+  height: 500px;
+  width: 320px;
+  flex-direction: column;
+  background: #303134;
+  margin-top: 118px;
+  margin-right: 42px;
+  border-radius: 8px;
+  overflow-y: visible;
+}
+
+.apps {
+  width: 32px;
+  height: 32px;
+  position: fixed;
+  right: 66px;
+  top: 14px;
+  border: none;
+  background: transparent;
+  z-index: 100;
+}
+
+.apps:hover {
+  background-size: 200px;
+  background: #303134;
+  border-radius: 50%;
+}
+.menu {
+  width: 240px;
+  height: 500px;
+}
+
+.apps-menu {
+  width: 48px;
+  height: 48px;
+}
+
+.apps-img {
+  width: 26px;
+  padding-left: 4px;
+  padding: 2px;
+}
+
+.apps-img:hover {
+  cursor: pointer;
+}
+
+.first-row,
+.second-row,
+.third-row,
+.fourth-row,
+.fifth-row {
+  display: flex;
+  flex-direction: row;
+  gap: 42px;
+  margin-top: 24px;
+  padding: 0 28px;
+}
