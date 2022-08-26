@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/google-search-landing-page-react/static/css/main.7783e4d8.css",
+    "main.js": "/google-search-landing-page-react/static/js/main.e0736f62.js",
+    "static/media/voice-search.svg": "/google-search-landing-page-react/static/media/voice-search.563437e9a3d74f6b2e98c6c12a653b89.svg",
+    "index.html": "/google-search-landing-page-react/index.html",
+    "static/media/search-glass.svg": "/google-search-landing-page-react/static/media/search-glass.ed47c4102ead072a723e569d0e09d99e.svg",
+    "main.7783e4d8.css.map": "/google-search-landing-page-react/static/css/main.7783e4d8.css.map",
+    "main.e0736f62.js.map": "/google-search-landing-page-react/static/js/main.e0736f62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7783e4d8.css",
+    "static/js/main.e0736f62.js"
+  ]
+}
